@@ -7,7 +7,7 @@ errors, track stats, whatever it is you do.
 
 ## Basic example
 
-Install in your project with `npm i loggly-sender`. Then:
+Install in your project with `npm i loggly-light`. Then:
 
 ```
 var logger = new Loggly({ customerToken: "abc123" });
