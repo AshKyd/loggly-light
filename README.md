@@ -1,9 +1,8 @@
-# Loggly Light
+# Loggly Light 🌳
 
-## a lightweight loggly logger 🌳
+A lightweight (~0.5 kb minified) [Loggly](https://loggly.com/) logger for the browser.
 
-A lightweight (~0.5 kb minified) lib to send logs to Loggly. Use it to report
-errors, track stats, whatever it is you do.
+Use it to report errors, track stats, UGC, whatever it is you do.
 
 ## Basic example
 
@@ -26,7 +25,7 @@ logger.log("my loggly tag", {hello: 'world'})
   .catch(() => {});
 ```
 
-## Example with global Loggly token
+## Global Loggly token
 
 You can also store your customer token on `window._loggly_customer_token` for a
 config-free init.
